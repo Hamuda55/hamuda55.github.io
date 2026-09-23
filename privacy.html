@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Page Poster — Privacy Policy</title>
+<style>
+  :root{
+    --bg:#F4F5F7; --surface:#FFFFFF; --ink:#1C2130; --ink-soft:#5B6478;
+    --accent:#1E6E62; --accent-soft:#E4F0ED; --border:#E1E4EA; --tag-bg:#ECEEF2;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#14171C; --surface:#1B1F26; --ink:#E7E9EE; --ink-soft:#9AA3B2;
+      --accent:#5FCBB8; --accent-soft:#1E2C2A; --border:#2A2F3A; --tag-bg:#232833;
+    }
+  }
+  *{box-sizing:border-box;}
+  html,body{ background:var(--bg); }
+  body{
+    margin:0; color:var(--ink);
+    font-family:"Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+    padding:0 20px;
+  }
+  .page{ max-width:680px; margin:0 auto; padding-block:56px 80px; }
+  .mark{ display:flex; align-items:center; gap:10px; margin-bottom:48px; }
+  .mark-glyph{
+    width:28px; height:28px; border-radius:7px; background:var(--accent);
+    display:flex; align-items:center; justify-content:center;
+    font-family:"Fraunces", serif; font-weight:600; color:var(--surface); font-size:15px;
+  }
+  .mark-name{ font-family:"IBM Plex Mono", ui-monospace, monospace; font-size:13px; letter-spacing:.02em; color:var(--ink-soft); }
+  header.doc-head{ border-bottom:1px solid var(--border); padding-bottom:32px; margin-bottom:40px; }
+  .tag-row{ display:flex; flex-wrap:wrap; gap:8px; margin-bottom:18px; }
+  .tag{
+    font-family:"IBM Plex Mono", ui-monospace, monospace; font-size:11px;
+    letter-spacing:.08em; text-transform:uppercase; color:var(--ink-soft);
+    background:var(--tag-bg); border:1px solid var(--border);
+    padding:4px 9px; border-radius:5px; font-variant-numeric:tabular-nums;
+  }
+  h1{
+    font-family:"Fraunces", serif; font-weight:500; font-style:italic;
+    font-size:clamp(32px,6vw,44px); line-height:1.08; margin:0 0 14px;
+    text-wrap:balance; letter-spacing:-.01em;
+  }
+  .lede{ color:var(--ink-soft); font-size:16px; line-height:1.6; max-width:52ch; margin:0; }
+  main{ display:flex; flex-direction:column; gap:34px; }
+  section{ display:flex; flex-direction:column; gap:10px; }
+  .sec-head{ display:flex; align-items:baseline; gap:12px; }
+  .sec-num{ font-family:"Fraunces", serif; font-style:italic; font-weight:500; color:var(--accent); font-size:15px; min-width:22px; }
+  h2{ font-family:"Source Sans 3", ui-sans-serif, sans-serif; font-weight:700; font-size:18px; margin:0; letter-spacing:-.005em; }
+  section p, section li{ font-size:15.5px; line-height:1.65; color:var(--ink); max-width:62ch; }
+  section p{ margin:0; padding-left:34px; }
+  section ul{ margin:0; padding-left:34px; display:flex; flex-direction:column; gap:6px; }
+  section ul li{ padding-left:0; }
+  section p + p{ margin-top:10px; }
+  table.data-map{
+    margin-left:34px; border-collapse:collapse; width:calc(100% - 34px);
+    font-size:14.5px; overflow-x:auto; display:block;
+  }
+  table.data-map thead th{
+    text-align:left; font-family:"IBM Plex Mono", ui-monospace, monospace;
+    font-size:11px; letter-spacing:.06em; text-transform:uppercase; color:var(--ink-soft);
+    padding:0 12px 8px 0; border-bottom:1px solid var(--border);
+  }
+  table.data-map td{ padding:9px 12px 9px 0; border-bottom:1px solid var(--border); vertical-align:top; color:var(--ink); }
+  table.data-map tr:last-child td{ border-bottom:none; }
+  code.inline{
+    font-family:"IBM Plex Mono", ui-monospace, monospace; font-size:.92em;
+    background:var(--tag-bg); border:1px solid var(--border); border-radius:4px; padding:1px 5px;
+  }
+  footer{
+    margin-top:56px; padding-top:24px; border-top:1px solid var(--border);
+    display:flex; flex-wrap:wrap; justify-content:space-between; gap:12px;
+    font-family:"IBM Plex Mono", ui-monospace, monospace; font-size:12px; color:var(--ink-soft);
+  }
+  footer a{ color:var(--accent); text-decoration:none; }
+  footer a:hover{ text-decoration:underline; }
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;1,500&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+</head>
+<body>
+<div class="page">
+  <div class="mark">
+    <div class="mark-glyph">P</div>
+    <div class="mark-name">my page poster</div>
+  </div>
+
+  <header class="doc-head">
+    <div class="tag-row">
+      <span class="tag">Legal · Privacy Policy</span>
+      <span class="tag">Effective 2026‑09‑23</span>
+      <span class="tag">v1.0</span>
+    </div>
+    <h1>Privacy Policy</h1>
+    <p class="lede">Describes what data "My Page Poster" handles while publishing video to the Operator's own TikTok account(s) through TikTok's official API, and drafting text through Anthropic's Claude API.</p>
+  </header>
+
+  <main>
+    <section>
+      <div class="sec-head"><span class="sec-num">01</span><h2>Scope</h2></div>
+      <p>This tool processes data only for the Operator's own connected TikTok account(s). It is not used to collect data from the public, from viewers of the Operator's videos, or from any third party.</p>
+    </section>
+
+    <section>
+      <div class="sec-head"><span class="sec-num">02</span><h2>Data this tool handles</h2></div>
+      <table class="data-map">
+        <thead><tr><th>Data</th><th>Source</th><th>Purpose</th></tr></thead>
+        <tbody>
+          <tr><td>OAuth access &amp; refresh tokens</td><td>TikTok, after the Operator authorizes an account</td><td>Authenticate publish/status requests</td></tr>
+          <tr><td>TikTok account identifier</td><td>TikTok, during OAuth</td><td>Route a scheduled post to the right account</td></tr>
+          <tr><td>Video URL, caption, schedule time</td><td>Entered by the Operator</td><td>Publish content at the intended time</td></tr>
+          <tr><td>Comment text</td><td>Manually supplied by the Operator</td><td>Draft a candidate reply for the Operator to review</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <div class="sec-head"><span class="sec-num">03</span><h2>Where it's stored</h2></div>
+      <p>Locally, as plain JSON files on the machine the Operator runs this tool on (<code class="inline">data/tokens.json</code>, <code class="inline">data/schedule.json</code>, <code class="inline">data/pending_replies.json</code>). This tool does not upload that data to any cloud service of its own.</p>
+    </section>
+
+    <section>
+      <div class="sec-head"><span class="sec-num">04</span><h2>Who it's shared with</h2></div>
+      <ul>
+        <li><strong>TikTok</strong> — via its official Content Posting API, to publish the Operator's video and check publish status.</li>
+        <li><strong>Anthropic</strong> — via the Claude API, to draft caption and reply text from the content/comment text the Operator supplies.</li>
+      </ul>
+      <p>No data is sold, rented, or shared for advertising, and no analytics or tracking pixels are embedded in this tool.</p>
+    </section>
+
+    <section>
+      <div class="sec-head"><span class="sec-num">05</span><h2>Retention</h2></div>
+      <p>Tokens and schedule data persist in the local files above until the Operator deletes them, or until the Operator revokes this app's access from their TikTok account settings.</p>
+    </section>
+
+    <section>
+      <div class="sec-head"><span class="sec-num">06</span><h2>Security</h2></div>
+      <p>Access to these files is governed by the permissions of the machine the Operator runs this tool on. The Operator is responsible for securing that device and for not committing <code class="inline">.env</code> or <code class="inline">data/tokens.json</code> to any shared or public repository.</p>
+    </section>
+
+    <section>
+      <div class="sec-head"><span class="sec-num">07</span><h2>Changes</h2></div>
+      <p>The Operator may revise this document at any time; the effective date above reflects the latest revision.</p>
+    </section>
+
+    <section>
+      <div class="sec-head"><span class="sec-num">08</span><h2>Contact</h2></div>
+      <p>Questions about this tool or this policy: <a href="mailto:eduard5platon@gmail.com" style="color:var(--accent)">eduard5platon@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <span>My Page Poster — personal use only</span>
+    <span><a href="./terms.html">Terms of Service</a></span>
+  </footer>
+</div>
+</body>
+</html>

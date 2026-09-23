@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Page Poster</title>
+<style>
+  :root{
+    --bg:#F4F5F7; --ink:#1C2130; --ink-soft:#5B6478; --accent:#1E6E62;
+    --surface:#FFFFFF; --border:#E1E4EA;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#14171C; --ink:#E7E9EE; --ink-soft:#9AA3B2; --accent:#5FCBB8; --surface:#1B1F26; --border:#2A2F3A; }
+  }
+  *{box-sizing:border-box;}
+  html,body{ background:var(--bg); }
+  body{
+    margin:0; color:var(--ink); min-height:100vh;
+    font-family:"Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+    display:flex; align-items:center; justify-content:center; padding:24px;
+  }
+  .card{ max-width:420px; width:100%; text-align:center; }
+  .mark-glyph{
+    width:44px; height:44px; border-radius:10px; background:var(--accent);
+    display:flex; align-items:center; justify-content:center; margin:0 auto 18px;
+    font-family:"Fraunces", serif; font-weight:600; color:var(--surface); font-size:22px;
+  }
+  h1{ font-family:"Fraunces", serif; font-style:italic; font-weight:500; font-size:28px; margin:0 0 8px; }
+  p{ color:var(--ink-soft); font-size:15px; line-height:1.6; margin:0 0 28px; }
+  .links{ display:flex; gap:12px; justify-content:center; flex-wrap:wrap; }
+  a.btn{
+    font-family:"IBM Plex Mono", ui-monospace, monospace; font-size:13px;
+    text-decoration:none; color:var(--ink); background:var(--surface);
+    border:1px solid var(--border); padding:10px 16px; border-radius:8px;
+  }
+  a.btn:hover{ border-color:var(--accent); color:var(--accent); }
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;1,500&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+</head>
+<body>
+  <div class="card">
+    <div class="mark-glyph">P</div>
+    <h1>My Page Poster</h1>
+    <p>A personal-use tool for scheduling and publishing video to the operator's own TikTok account(s) via TikTok's official Content Posting API.</p>
+    <div class="links">
+      <a class="btn" href="./terms.html">Terms of Service</a>
+      <a class="btn" href="./privacy.html">Privacy Policy</a>
+    </div>
+  </div>
+</body>
+</html>
